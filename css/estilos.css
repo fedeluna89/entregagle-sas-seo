@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0;
+  text-align: center; }
+  ul li {
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      background-color: red; }
+
+p {
+  background-color: #808080; }
+
+body {
+  background-color: salmon; }
+
+footer img {
+  width: 60px; }
+
+h1 {
+  font-size: 50px; }
+
+p {
+  color: white;
+  font-family: 20px; }

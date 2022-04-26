@@ -1,0 +1,23 @@
+@import "menu";
+@import "fondos";
+@mixin aspecto($fontsize, $fontFamily){
+    color: white;
+    font-family: $fontFamily;
+}
+$colorbg: salmon;
+
+body{
+    background-color: $colorbg;
+}
+footer{
+    img{
+        width: 60px
+        
+    }
+}
+h1{
+    font-size: 50px;
+}
+p{
+    @include aspecto(arial,20px)
+}
